@@ -1,0 +1,15 @@
+@charset "UTF-8";
+*{margin: 0;padding: 0;list-style: none;color: #333;text-decoration: none;}
+
+#wrap{width: 500px;margin: auto;}
+
+header {width: 500px;height: 100px;background-color: gainsboro;display: flex;justify-content: space-between;align-items: center;}
+
+.contents{display: flex;}
+.contents nav{width: 100px;height: 550px;background-color: coral;padding: 10px;}
+.contents nav ul{display: flex;flex-flow: row wrap;justify-content: center;}
+.contents nav ul a{display:block;padding:8px;}
+
+.contents section{width:400px;height: 550px;background-color: cornflowerblue;padding: 10px;display: flex;justify-content: center;align-items: center;}
+
+footer{width: 500px;height: 50px;background-color: #333;color: #fff;display: flex;justify-content: center;align-items: center;}
